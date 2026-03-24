@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Exercicio1/">
+    <Project Path="Exercicio1/AppSenhas/AppSenhas.csproj" />
+    <Project Path="Exercicio1/TestSenhas/TestSenhas.csproj" />
+  </Folder>
+  <Folder Name="/Exercicio2/">
+    <Project Path="Exercicio2/AppCarrinho/AppCarrinho.csproj" />
+    <Project Path="Exercicio2/TestCarrinho/TestCarrinho.csproj" />
+  </Folder>
+  <Project Path="/home/igor/Área de trabalho/POO2/Roteiro3/TesteCalculadora/TesteCalculadora.csproj" />
+  <Project Path="/home/igor/Área de trabalho/POO2/Roteiro3/TesteUnitarios/TesteUnitarios.csproj" />
+</Solution>
