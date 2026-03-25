@@ -94,13 +94,22 @@ Assert.Throws<DivideByZeroException>(() => {
 var ex = Assert.Throws<ArgumentException>(() => throw new ArgumentException("Altura inválida"));
 Assert.Equal("Altura inválida", ex.Message);
 
-// O Assert.Throws é absoleto logo para executar esse funçao de verificar mensagem precisamos fazer o seguinte codigo: 
+//Outras formas de usar o Assert.Throws e Assert.ThrowsAsync no Exercicio 5 eu utilizei mais formas alem desses.
 [Fact]
     public async Task verificar_excecao_se_percentual_maior100()
     {
         var desconto = new Desconto();
         var mensagem = await Assert.ThrowsAsync<ArgumentException>(() => throw new ArgumentException("Percentual inválido"));
         Assert.Equal("Percentual inválido",mensagem.Message);
+    }
+
+
+[Fact]
+    public void verificar_mensagem_excecao()
+    {
+        var desconto = new Desconto();
+        var ex = Assert.Throws<ArgumentException>(() => desconto.AplicarDesconto(100,-10));
+        Assert.Equal("Percentual inválido",ex.Message);
     }
 
 // Verifica se o objeto é de um tipo específico (ex: string)
