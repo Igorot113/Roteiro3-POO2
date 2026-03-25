@@ -1,28 +1,35 @@
-public class Item
+namespace AppCarrinho
 {
-    public string Nome {get; set;}
-    public double Preco {get; set;}
-}
-
-public class Carrinho
-{
-    private List<Item> itens = new();
-    public void Adicionar(Item item)
+    public class Item
     {
-        itens.Add(item);
+        public string Nome { get; set; }
+        public double Preco { get; set; }
     }
 
-    public double Total()
+    public class Carrinho
     {
-        return itens.Sum(i => i.Preco);
-    }
+        public List<Item> itens = new(); 
+        /* Se voce utilizar o Assert.Empty() com esse atributo no private ele vai dar 
+        erro porque a classe do teste ele não conseguira ver esse atributo collection la 
+        agora se deixar no public, ele sim conseguirá ver esse atributo la na classe teste.
+        */
+        public void Adicionar(Item item)
+        {
+            itens.Add(item);
+        }
 
-    public int Quantidade()
-    {
-        return itens.Count;
-    }
-    public void Limpar()
-    {
-        itens.Clear();
+        public double Total()
+        {
+            return itens.Sum(i => i.Preco);
+        }
+
+        public int Quantidade()
+        {
+            return itens.Count;
+        }
+        public void Limpar()
+        {
+            itens.Clear();
+        }
     }
 }

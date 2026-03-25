@@ -1,4 +1,5 @@
-﻿class Program
+﻿using AppCarrinho;
+class Program
 {
     static void Main()
     {
@@ -15,5 +16,9 @@
         carrinho.Adicionar(
             new Item {Nome = "Pera", Preco = 2.00}
         );
+        carrinho.Total();
+        carrinho.Quantidade();
+        carrinho.Limpar();
+
     }
 }

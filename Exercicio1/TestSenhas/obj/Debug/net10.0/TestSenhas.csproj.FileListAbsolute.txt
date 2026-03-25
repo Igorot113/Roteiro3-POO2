@@ -100,3 +100,4 @@
 /home/igor/Área de trabalho/POO2/Roteiro3/Exercicio1/TestSenhas/obj/Debug/net10.0/TestSenhas.pdb
 /home/igor/Área de trabalho/POO2/Roteiro3/Exercicio1/TestSenhas/obj/Debug/net10.0/TestSenhas.genruntimeconfig.cache
 /home/igor/Área de trabalho/POO2/Roteiro3/Exercicio1/TestSenhas/obj/Debug/net10.0/ref/TestSenhas.dll
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio1/TestSenhas/obj/Debug/net10.0/TestSenhas.sourcelink.json

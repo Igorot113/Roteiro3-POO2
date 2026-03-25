@@ -93,3 +93,11 @@
 /home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/obj/Debug/net10.0/TestCarrinho.pdb
 /home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/obj/Debug/net10.0/TestCarrinho.genruntimeconfig.cache
 /home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/obj/Debug/net10.0/ref/TestCarrinho.dll
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/bin/Debug/net10.0/.msCoverageSourceRootsMapping_TestCarrinho
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/bin/Debug/net10.0/CoverletSourceRootsMapping_TestCarrinho
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/bin/Debug/net10.0/AppCarrinho.deps.json
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/bin/Debug/net10.0/AppCarrinho.runtimeconfig.json
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/bin/Debug/net10.0/AppCarrinho
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/bin/Debug/net10.0/AppCarrinho.dll
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/bin/Debug/net10.0/AppCarrinho.pdb
+/home/igor/Área de trabalho/POO2/Roteiro3/Exercicio2/TestCarrinho/obj/Debug/net10.0/TestCarrinho.sourcelink.json

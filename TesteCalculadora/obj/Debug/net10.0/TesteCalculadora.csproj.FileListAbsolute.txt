@@ -100,3 +100,4 @@
 /home/igor/Área de trabalho/POO2/Roteiro3/TesteCalculadora/obj/Debug/net10.0/TesteCalculadora.pdb
 /home/igor/Área de trabalho/POO2/Roteiro3/TesteCalculadora/obj/Debug/net10.0/TesteCalculadora.genruntimeconfig.cache
 /home/igor/Área de trabalho/POO2/Roteiro3/TesteCalculadora/obj/Debug/net10.0/ref/TesteCalculadora.dll
+/home/igor/Área de trabalho/POO2/Roteiro3/TesteCalculadora/obj/Debug/net10.0/TesteCalculadora.sourcelink.json
